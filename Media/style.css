@@ -43,6 +43,11 @@
         background-color: #499F65;
 
     }
+    .logo::after{
+        content: "";
+        display: block;
+        font-family: FontAwesome;
+        margin-left: 5px;}
 
     .menu
     {   
@@ -81,6 +86,17 @@
         border: solid white;
         background-color: white;
         color: #499F65;
+      }
+      .logo > img
+      {
+        
+        background-color: #499F65;
+        display: inline;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        left: 80%;
+        transition: 0.3s;
       }
 
 }
@@ -159,7 +175,17 @@
         background-color: white;
         color: #499F65;
       }
-     
+      .logo > img
+      {
+        display: inline;
+        height: 30px;
+        width: 30px;
+        background-color: #499F65;
+        margin-top: 10px;
+        position: absolute;
+        left: 87%;
+      }
+
 }
 
 
@@ -226,6 +252,13 @@
         border: solid #499F65;
         background-color: #499F65;
         color: white;
+      }
+      .logo > img {
+        height: 30px;
+        width: 30px;
+
+        background-color: #499F65;
+        display: none;
       }
 }
 
